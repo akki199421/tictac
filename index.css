@@ -1,0 +1,95 @@
+.parentTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.resetButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f90;
+    margin-top: 25px;
+    color: #fff;
+    width: 136px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.flashMessage{
+    position: fixed;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 16px 50px;
+    min-width: 300px;
+    border-radius: 5px;
+    background: #00f;
+    text-align: center;
+    display: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.flashMessage.show{
+    display: block;
+}
+
+.flashMessage.red{
+    background: #f00;
+}
+
+.flashMessage.green{
+    background: #0f0;
+}
+
+.gridTop{
+    border-color: "#f44336";
+    border: '1px solid red';
+    display: flex;
+    flex-direction: column;
+}
+
+.lightBackground {
+    background-color: 00FFFF
+}
+
+.columnsStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowStyle {
+    display: flex;
+}
+
+.darkBackground {
+    background-color: F0FFFF
+}
+
+.box {
+    width: 100;
+    height: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.cross{
+    color: #f90;
+    font-size: 2.5em;
+    border-radius: 5px;
+    line-height: 100px;
+}
